@@ -1,9 +1,13 @@
-import Header from './components/header/Header';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./components/routes/AppRoutes";
 
 function App() {
   return (
     <>
-    <Header />
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
     </>
   );
 }
