@@ -1,0 +1,25 @@
+.title {
+    font-weight: 700;
+    font-size: 1.714em;
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.title:after {
+    border-top: 1px solid #dddddd;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+.title span {
+    background: white;
+    padding: 0 40px;
+    position: relative;
+    z-index: 2;
+}

@@ -14,10 +14,8 @@ const Slider = () => {
     margin: 0,
     autoplay: true,
     dots: false,
-    // autoplayTimeout: 8500,
     smartSpeed: 450,
     nav: true
-    // navText: ['next','prev']
   };
 
   const SliderDetail = ({ sliderData }) => {
@@ -33,7 +31,7 @@ const Slider = () => {
                 <br />
                 {itemCaptionSecondLine}
               </h2>
-              <Button className="btn-white" path="/">SHOP NOW</Button>
+              <Button className="btn btn-white" path="/">SHOP NOW</Button>
             </div>
           </div>
         </div>

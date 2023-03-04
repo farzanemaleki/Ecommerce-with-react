@@ -1,11 +1,17 @@
 import React from 'react';
-import Button from '../components/common-ui/Button';
+import Title from '../components/common-ui/Title';
+import HighLight from '../components/home/HighLight';
+import NewProducts from '../components/home/newProducts/NewProducts';
 import Slider from '../components/home/Slider';
 
 const HomePage = () => {
   return (
     <>
     <Slider />
+    <HighLight />
+    <Title>Our Products</Title>
+    <NewProducts />
+
     </>
   )
 }
