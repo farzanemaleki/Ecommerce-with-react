@@ -1,9 +1,11 @@
 import React from 'react';
+import Button from '../components/common-ui/Button';
+import Slider from '../components/home/Slider';
 
 const HomePage = () => {
   return (
     <>
-    <h1>farzaneh you can do it</h1>
+    <Slider />
     </>
   )
 }

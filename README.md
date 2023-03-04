@@ -8,7 +8,11 @@ Just clone it and run
 ## Installing React-app
 ### Installing React Necessary Configuration
 
-installing react-router && react-route-dom
+`npm install --save react-router`    
+`npm install --save react-router-dom`    
+`npm install --save bootstrap`
+`npm install --save react-owl-carousel`
+
 
 
 
@@ -16,3 +20,5 @@ installing react-router && react-route-dom
 
 1. Creating Necessary Components For Home
 2. Creating AppRoutes Component and define simple routes
+3. manage css files
+4. 
